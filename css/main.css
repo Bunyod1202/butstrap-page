@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* VARIABLES*/ /* GENERAL */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img, svg {
+  display: block;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+/* STICKY-FOOTER */
+.site-main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* CONTAINER */ /*Header*/
+@media only screen and (max-width: 992px) {
+  .bd-placeholder-img {
+    display: none;
+  }
+}
+/*Footer*/ /*
+ _______       _            _     _          ______        _                 _ 
+(_______)     (_)       _  (_)   | |        (____  \      (_)               | |
+ _______  ____ _  ___ _| |_ _  __| |_____    ____)  ) ____ _ _____ ____   __| |
+|  ___  |/ ___) |/___|_   _) |/ _  | ___ |  |  __  ( / ___) (____ |  _ \ / _  |
+| |   | | |   | |___ | | |_| ( (_| | ____|  | |__)  ) |   | / ___ | | | ( (_| |
+|_|   |_|_|   |_(___/   \__)_|\____|_____)  |______/|_|   |_\_____|_| |_|\____|
+
+Auteur: msii(msii.pro@gmail.com) 
+_modal.scss(Ɔ) 2022
+Description : Saisissez la description puis « Tab »
+Créé le :  lundi 8 août 2022, 10:33:16 
+Dernière modification : lundi 8 août 2022, 10:33:17
+*//*# sourceMappingURL=main.css.map */

@@ -1,0 +1,49 @@
+/* GENERAL */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+html{
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img , svg{
+  display: block;
+  height: auto;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.h-text {
+  
+  font-family:  Georgia, 'Times New Roman', Times, serif,;
+}
+body{
+  @include sticky-footer;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: 
+  #fff;
+}
+
+/* STICKY-FOOTER */
+.site-main{
+  flex-grow: 1;
+}
